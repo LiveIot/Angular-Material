@@ -40,6 +40,12 @@ import { ChipsComponent } from './chips/chips.component';
 import { DatepickerComponent } from './datepicker/datepicker.component';
 import { DialogComponent } from './dialog/dialog.component';
 import { DividerComponent } from './divider/divider.component';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatChipsModule} from '@angular/material/chips';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatDialogModule} from '@angular/material/dialog';
+import { DialogContentExampleDialog } from './dialog/dialog.component';
+
 
 
 
@@ -62,7 +68,8 @@ import { DividerComponent } from './divider/divider.component';
     ChipsComponent,
     DatepickerComponent,
     DialogComponent,
-    DividerComponent
+    DividerComponent,
+DialogContentExampleDialog,
   ],
   imports: [
     BrowserModule,
@@ -86,7 +93,13 @@ import { DividerComponent } from './divider/divider.component';
     MatButtonToggleModule,
     MatDividerModule,
     MatAutocompleteModule,
-    FormsModule],
+    FormsModule,
+MatCheckboxModule,
+MatChipsModule,
+MatDatepickerModule,
+MatDialogModule,
+
+],
 
   exports: [
     MatSliderModule,

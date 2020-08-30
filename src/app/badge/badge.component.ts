@@ -6,7 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./badge.component.css']
 })
 export class BadgeComponent implements OnInit {
+  hidden = false;
 
+    toggleBadgeVisibility() {
+      this.hidden = !this.hidden;
+    }
   constructor() { }
 
   ngOnInit(): void {

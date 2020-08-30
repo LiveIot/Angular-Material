@@ -26,6 +26,17 @@ import { BottomSheetComponent } from './bottom-sheet/bottom-sheet.component';
 import { ButtonComponent } from './button/button.component';
 import { ToggleButtonComponent } from './toggle-button/toggle-button.component';
 import { CardComponent } from './card/card.component';
+import {MatBadgeModule} from '@angular/material/badge';
+import {MatBottomSheetModule} from '@angular/material/bottom-sheet';
+import {MAT_FORM_FIELD_DEFAULT_OPTIONS} from '@angular/material/form-field';
+import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
+import { MatDividerModule } from '@angular/material/divider';
+import { BottomSheetOverviewExampleSheet } from './bottom-sheet/bottom-sheet.component';
+import {MatAutocompleteModule} from '@angular/material/autocomplete';
+import { FormsModule } from '@angular/forms';
+
+
 
 
 @NgModule({
@@ -39,7 +50,8 @@ import { CardComponent } from './card/card.component';
     BottomSheetComponent,
     ButtonComponent,
     ToggleButtonComponent,
-    CardComponent
+    CardComponent,
+    BottomSheetOverviewExampleSheet
   ],
   imports: [
     BrowserModule,
@@ -57,9 +69,26 @@ import { CardComponent } from './card/card.component';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    DragDropModule
-  ],
+    DragDropModule,
+    MatBadgeModule,
+    MatBottomSheetModule,
+    MatButtonToggleModule,
+    MatDividerModule,
+    MatAutocompleteModule,
+    FormsModule  ],
+
+  exports: [
+    MatSliderModule,
+    MatInputModule,
+    MatIconModule,
+    MatDividerModule,
+    MatListModule,
+    MatAutocompleteModule
+ ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+platformBrowserDynamic().bootstrapModule(AppModule)
+  .catch(err => console.error(err));

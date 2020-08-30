@@ -35,8 +35,6 @@ import { MatDividerModule } from '@angular/material/divider';
 import { BottomSheetOverviewExampleSheet } from './bottom-sheet/bottom-sheet.component';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import { FormsModule } from '@angular/forms';
-import {MatButtonToggleModule} from '@angular/material/button-toggle';
-import {MatCardModule} from '@angular/material/card';
 
 
 
@@ -78,10 +76,7 @@ import {MatCardModule} from '@angular/material/card';
     MatButtonToggleModule,
     MatDividerModule,
     MatAutocompleteModule,
-    FormsModule,
-MatButtonToggleModule,
-MatCardModule
-],
+    FormsModule],
 
   exports: [
     MatSliderModule,

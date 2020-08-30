@@ -35,6 +35,11 @@ import { MatDividerModule } from '@angular/material/divider';
 import { BottomSheetOverviewExampleSheet } from './bottom-sheet/bottom-sheet.component';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import { FormsModule } from '@angular/forms';
+import { CheckboxComponent } from './checkbox/checkbox.component';
+import { ChipsComponent } from './chips/chips.component';
+import { DatepickerComponent } from './datepicker/datepicker.component';
+import { DialogComponent } from './dialog/dialog.component';
+import { DividerComponent } from './divider/divider.component';
 
 
 
@@ -52,7 +57,12 @@ import { FormsModule } from '@angular/forms';
     ButtonComponent,
     ToggleButtonComponent,
     CardComponent,
-    BottomSheetOverviewExampleSheet
+    BottomSheetOverviewExampleSheet,
+    CheckboxComponent,
+    ChipsComponent,
+    DatepickerComponent,
+    DialogComponent,
+    DividerComponent
   ],
   imports: [
     BrowserModule,

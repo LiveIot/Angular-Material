@@ -6,6 +6,11 @@ import { BottomSheetComponent } from './bottom-sheet/bottom-sheet.component';
 import { ButtonComponent } from './button/button.component';
 import { ToggleButtonComponent } from './toggle-button/toggle-button.component';
 import { CardComponent } from './card/card.component';
+import { CheckboxComponent } from './checkbox/checkbox.component';
+import { ChipsComponent } from './chips/chips.component';
+import { DatepickerComponent } from './datepicker/datepicker.component';
+import { DialogComponent } from './dialog/dialog.component';
+import { DividerComponent } from './divider/divider.component';
 
 const routes: Routes = [
 {path:'autocomplete', component: AutocompleteComponent},
@@ -13,7 +18,13 @@ const routes: Routes = [
 {path:'bottom-sheet', component: BottomSheetComponent },
 {path:'button', component: ButtonComponent },
 {path:'toggle-button', component: ToggleButtonComponent },
-{path:'card', component: CardComponent }
+{path:'card', component: CardComponent },
+{path:'checkbox',component: CheckboxComponent},
+{path:'chips',component: ChipsComponent},
+{path:'datepicker',component: DatepickerComponent},
+{path:'dialog',component: DialogComponent},
+{path:'divider',component: DividerComponent},
+
 
 
 ];

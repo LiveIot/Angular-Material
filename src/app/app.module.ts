@@ -53,6 +53,12 @@ import { InputComponent } from './input/input.component';
 import { ListComponent } from './list/list.component';
 import { MenuComponent } from './menu/menu.component';
 import { PaginationComponent } from './pagination/pagination.component';
+import {MatExpansionModule} from '@angular/material/expansion';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatMenuModule} from '@angular/material/menu';
+import {MatPaginatorModule} from '@angular/material/paginator';
+
 
 
 
@@ -114,6 +120,11 @@ MatCheckboxModule,
 MatChipsModule,
 MatDatepickerModule,
 MatDialogModule,
+MatExpansionModule,
+MatFormFieldModule,
+MatGridListModule,
+MatMenuModule,
+MatPaginatorModule
 
 ],
 

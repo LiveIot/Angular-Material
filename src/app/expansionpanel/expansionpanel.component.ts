@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,ViewChild } from '@angular/core';
+import {MatAccordion} from '@angular/material/expansion';
 
 @Component({
   selector: 'app-expansionpanel',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./expansionpanel.component.css']
 })
 export class ExpansionpanelComponent implements OnInit {
+@ViewChild(MatAccordion) accordion: MatAccordion;
 
   constructor() { }
 

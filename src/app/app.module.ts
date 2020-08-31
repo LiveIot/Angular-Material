@@ -45,6 +45,14 @@ import {MatChipsModule} from '@angular/material/chips';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatDialogModule} from '@angular/material/dialog';
 import { DialogContentExampleDialog } from './dialog/dialog.component';
+import { ExpansionpanelComponent } from './expansionpanel/expansionpanel.component';
+import { FormfiledComponent } from './formfiled/formfiled.component';
+import { GridlistComponent } from './gridlist/gridlist.component';
+import { IconComponent } from './icon/icon.component';
+import { InputComponent } from './input/input.component';
+import { ListComponent } from './list/list.component';
+import { MenuComponent } from './menu/menu.component';
+import { PaginationComponent } from './pagination/pagination.component';
 
 
 
@@ -70,6 +78,14 @@ import { DialogContentExampleDialog } from './dialog/dialog.component';
     DialogComponent,
     DividerComponent,
 DialogContentExampleDialog,
+ExpansionpanelComponent,
+FormfiledComponent,
+GridlistComponent,
+IconComponent,
+InputComponent,
+ListComponent,
+MenuComponent,
+PaginationComponent,
   ],
   imports: [
     BrowserModule,

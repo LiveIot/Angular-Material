@@ -12,6 +12,15 @@ import { DatepickerComponent } from './datepicker/datepicker.component';
 import { DialogComponent } from './dialog/dialog.component';
 import { DividerComponent } from './divider/divider.component';
 
+import { ExpansionpanelComponent } from './expansionpanel/expansionpanel.component';
+import { FormfiledComponent } from './formfiled/formfiled.component';
+import { GridlistComponent } from './gridlist/gridlist.component';
+import { IconComponent } from './icon/icon.component';
+import { MenuComponent } from './menu/menu.component';
+import { ListComponent } from './list/list.component';
+import { InputComponent } from './input/input.component';
+import { PaginationComponent } from './pagination/pagination.component';
+
 const routes: Routes = [
 {path:'autocomplete', component: AutocompleteComponent},
 {path:'badge', component: BadgeComponent },
@@ -24,8 +33,14 @@ const routes: Routes = [
 {path:'datepicker',component: DatepickerComponent},
 {path:'dialog',component: DialogComponent},
 {path:'divider',component: DividerComponent},
-
-
+{path:'expansionpanel',component: ExpansionpanelComponent},
+{path:'formfiled',component: FormfiledComponent},
+{path:'input',component: InputComponent},
+{path:'gridlist',component: GridlistComponent},
+{path:'icon',component: IconComponent},
+{path:'list',component: ListComponent},
+{path:'menu',component: MenuComponent},
+{path:'pagination',component: PaginationComponent},
 
 ];
 

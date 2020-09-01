@@ -58,6 +58,38 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatPaginatorModule} from '@angular/material/paginator';
+import { ProgressbarComponent } from './progressbar/progressbar.component';
+import { ProgressSpinnerComponent } from './progress-spinner/progress-spinner.component';
+import { RadioButtonComponent } from './radio-button/radio-button.component';
+import { RipplesComponent } from './ripples/ripples.component';
+import { SelectComponent } from './select/select.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
+import { SlideToggleComponent } from './slide-toggle/slide-toggle.component';
+import { SliderComponent } from './slider/slider.component';
+import { SnakebarComponent } from './snakebar/snakebar.component';
+import { SortHeaderComponent } from './sort-header/sort-header.component';
+import { StepperComponent } from './stepper/stepper.component';
+import { TableComponent } from './table/table.component';
+import { TabsComponent } from './tabs/tabs.component';
+import { ToolbarComponent } from './toolbar/toolbar.component';
+import { TooltipComponent } from './tooltip/tooltip.component';
+
+import {MatProgressBarModule} from '@angular/material/progress-bar';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import {MatRippleModule} from '@angular/material/core';
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+import {MatSortModule} from '@angular/material/sort';
+import {MatStepperModule} from '@angular/material/stepper';
+import {MatTableModule} from '@angular/material/table';
+import {MatTabsModule} from '@angular/material/tabs';
+import {MatTooltipModule} from '@angular/material/tooltip';
+
+
+
+
+
+
 
 
 
@@ -92,6 +124,21 @@ InputComponent,
 ListComponent,
 MenuComponent,
 PaginationComponent,
+ProgressbarComponent,
+ProgressSpinnerComponent,
+RadioButtonComponent,
+RipplesComponent,
+SelectComponent,
+SidenavComponent,
+SlideToggleComponent,
+SliderComponent,
+SnakebarComponent,
+SortHeaderComponent,
+StepperComponent,
+TableComponent,
+TabsComponent,
+ToolbarComponent,
+TooltipComponent,
   ],
   imports: [
     BrowserModule,
@@ -124,7 +171,17 @@ MatExpansionModule,
 MatFormFieldModule,
 MatGridListModule,
 MatMenuModule,
-MatPaginatorModule
+MatPaginatorModule,
+MatProgressBarModule,
+MatProgressSpinnerModule,
+MatRippleModule,
+MatSlideToggleModule,
+MatSnackBarModule,
+MatSortModule,
+MatStepperModule,
+MatTableModule,
+MatTabsModule,
+MatTooltipModule
 
 ],
 

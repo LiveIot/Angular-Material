@@ -84,6 +84,7 @@ import {MatStepperModule} from '@angular/material/stepper';
 import {MatTableModule} from '@angular/material/table';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatTooltipModule} from '@angular/material/tooltip';
+import {MatNativeDateModule} from '@angular/material/core';
 
 
 
@@ -181,8 +182,8 @@ MatSortModule,
 MatStepperModule,
 MatTableModule,
 MatTabsModule,
-MatTooltipModule
-
+MatTooltipModule,
+MatNativeDateModule
 ],
 
   exports: [
